@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 23 18:35:48 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7951 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.test.TC_Post_Request.createUserTest()'><b>createUserTest</b><br>Test class: com.qa.test.TC_Post_Request<br>Test method: Add user - Post request</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.TC_Post_Request@3a079870</td></tr>
+<tr>
+<td title='com.qa.test.TC_Post_Request.createUserTest1()'><b>createUserTest1</b><br>Test class: com.qa.test.TC_Post_Request<br>Test method: Add user - Post call using Json object</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.TC_Post_Request@3a079870</td></tr>
+<tr>
+<td title='com.qa.test.TC_Post_Request.createUserTest2()'><b>createUserTest2</b><br>Test class: com.qa.test.TC_Post_Request</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.TC_Post_Request@3a079870</td></tr>
+<tr>
+<td title='com.qa.test.TC_Delete_Request.deleteUserTest()'><b>deleteUserTest</b><br>Test class: com.qa.test.TC_Delete_Request</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.TC_Delete_Request@2aa5fe93</td></tr>
+<tr>
+<td title='com.qa.test.TC_Get_Request.getAllUserTest()'><b>getAllUserTest</b><br>Test class: com.qa.test.TC_Get_Request<br>Test method: Get Request for all user</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.TC_Get_Request@f2f2cc1</td></tr>
+<tr>
+<td title='com.qa.test.TC_Get_Request.getSinglerUserTest()'><b>getSinglerUserTest</b><br>Test class: com.qa.test.TC_Get_Request<br>Test method: Get Request for single user</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.TC_Get_Request@f2f2cc1</td></tr>
+<tr>
+<td title='com.qa.test.TC_Put_Request.updateUserTest()'><b>updateUserTest</b><br>Test class: com.qa.test.TC_Put_Request<br>Test method: Update user - Put request</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.TC_Put_Request@3b2cf7ab</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,8 @@
+com\qa\base\BaseTest.class
+com\qa\test\TC_Get_Request.class
+com\qa\utils\RestUtils.class
+com\qa\test\TC_Delete_Request.class
+com\qa\utils\Reporting.class
+com\qa\test\TC_Post_Request.class
+com\qa\utils\XLUtils.class
+com\qa\test\TC_Put_Request.class

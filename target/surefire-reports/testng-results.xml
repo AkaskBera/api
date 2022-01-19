@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ReqresApiSuite" duration-ms="10468" started-at="2021-07-26T16:29:37Z" finished-at="2021-07-26T16:29:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10468" started-at="2021-07-26T16:29:37Z" finished-at="2021-07-26T16:29:47Z">
+      <class name="com.qa.test.TC_Get_Request">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.TC_Get_Request@6cd8737]" name="setup" is-config="true" duration-ms="61" started-at="2021-07-26T16:29:37Z" finished-at="2021-07-26T16:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllUserTest()[pri:0, instance:com.qa.test.TC_Get_Request@6cd8737]" name="getAllUserTest" duration-ms="4609" started-at="2021-07-26T16:29:37Z" description="Get Request for all user" finished-at="2021-07-26T16:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUserTest -->
+        <test-method status="PASS" signature="getSinglerUserTest()[pri:0, instance:com.qa.test.TC_Get_Request@6cd8737]" name="getSinglerUserTest" duration-ms="691" started-at="2021-07-26T16:29:42Z" description="Get Request for single user" finished-at="2021-07-26T16:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSinglerUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.TC_Get_Request@6cd8737]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-07-26T16:29:43Z" finished-at="2021-07-26T16:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.TC_Get_Request -->
+      <class name="com.qa.test.TC_Delete_Request">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.TC_Delete_Request@6aaa5eb0]" name="setup" is-config="true" duration-ms="6" started-at="2021-07-26T16:29:46Z" finished-at="2021-07-26T16:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:com.qa.test.TC_Delete_Request@6aaa5eb0]" name="deleteUserTest" duration-ms="937" started-at="2021-07-26T16:29:46Z" finished-at="2021-07-26T16:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.TC_Delete_Request@6aaa5eb0]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-07-26T16:29:47Z" finished-at="2021-07-26T16:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.TC_Delete_Request -->
+      <class name="com.qa.test.TC_Post_Request">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.TC_Post_Request@22f71333]" name="setup" is-config="true" duration-ms="4" started-at="2021-07-26T16:29:43Z" finished-at="2021-07-26T16:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createUserTest()[pri:0, instance:com.qa.test.TC_Post_Request@22f71333]" name="createUserTest" duration-ms="1169" started-at="2021-07-26T16:29:43Z" description="Add user - Post request" finished-at="2021-07-26T16:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method status="PASS" signature="createUserTest1()[pri:0, instance:com.qa.test.TC_Post_Request@22f71333]" name="createUserTest1" duration-ms="704" started-at="2021-07-26T16:29:44Z" description="Add user - Post call using Json object" finished-at="2021-07-26T16:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest1 -->
+        <test-method status="PASS" signature="createUserTest2()[pri:0, instance:com.qa.test.TC_Post_Request@22f71333]" name="createUserTest2" duration-ms="895" started-at="2021-07-26T16:29:44Z" finished-at="2021-07-26T16:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.TC_Post_Request@22f71333]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-07-26T16:29:45Z" finished-at="2021-07-26T16:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.TC_Post_Request -->
+      <class name="com.qa.test.TC_Put_Request">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.TC_Put_Request@13969fbe]" name="setup" is-config="true" duration-ms="7" started-at="2021-07-26T16:29:45Z" finished-at="2021-07-26T16:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateUserTest()[pri:0, instance:com.qa.test.TC_Put_Request@13969fbe]" name="updateUserTest" duration-ms="954" started-at="2021-07-26T16:29:45Z" description="Update user - Put request" finished-at="2021-07-26T16:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.TC_Put_Request@13969fbe]" name="tearDown" is-config="true" duration-ms="3" started-at="2021-07-26T16:29:46Z" finished-at="2021-07-26T16:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.TC_Put_Request -->
+    </test> <!-- Test -->
+  </suite> <!-- ReqresApiSuite -->
+</testng-results>

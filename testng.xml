@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ReqresApiSuite">
+	<listeners>
+		<listener class-name="com.qa.utils.Reporting" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.qa.test.TC_Get_Request" />
+			<class name="com.qa.test.TC_Post_Request" />
+			<class name="com.qa.test.TC_Put_Request" />
+			<class name="com.qa.test.TC_Delete_Request" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
